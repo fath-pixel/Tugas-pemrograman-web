@@ -149,6 +149,8 @@ nav {
     display: flex;
     justify-content: center;
     gap: 30px;
+    align-items: center;
+
 }
 
 .menu-card {
@@ -157,15 +159,22 @@ nav {
     border-radius: 10px;
     padding-bottom: 20px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .menu-card img {
     display: block;
     width: 200px;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
 }
 
 .menu-card h2 {
@@ -176,6 +185,11 @@ nav {
 .menu-card a {
     text-decoration: none;
     color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
 }
 
 /*kontak*/
@@ -263,7 +277,7 @@ nav {
 }
 
 .contact-page .contact-button:hover {
-    background: #0369a1;
+    background: #d3ba85;
     transform: translateY(-3px);
     box-shadow: 0 5px 12px rgba(2, 132, 199, 0.3);
 }
