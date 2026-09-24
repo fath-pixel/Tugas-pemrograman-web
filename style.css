@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e9;
+}
+
+.header {
+    background-color: #5c4033;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #e6c9a8;
+}
+
+.menu {
+    text-align: center;
+    padding: 40px 70px;
+}
+
+.menu h1 {
+    font-size: 35px;
+    color: #4b3025;
+    margin-bottom: 10px;
+}
+
+.menu p {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-card {
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card img {
+    display: block;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.menu-card h2 {
+    margin-top: 15px;
+    color: #4b3025;
+}
+
+.menu-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*kontak*/
+.contact-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    background: #e0f2fe;
+    font-family: Arial, sans-serif;
+}
+
+.contact-page .contact-card{
+    background: white;
+    padding: 35px;
+    width: 100%;
+    max-width: 350px;
+
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.contact-page .contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contact-page .contact-icon {
+    font-size: 35px;
+    color: #0284c7;
+
+    background: #e0f2fe;
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    margin: 0 auto 20px;
+
+    transition: 0.3s ease;
+}
+
+.contact-page .contact-card:hover .contact-icon {
+    transform: scale(1.1);
+}
+
+.contact-page h1 {
+    color: #0f172a;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.contact-page p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contact-page h2 {
+    color: #0284c7;
+    font-size: 23px;
+    margin: 20px 0;
+}
+
+.contact-page .contact-button {
+    display: inline-block;
+    background: #0284c7;
+    color: white;
+
+    padding: 12px 20px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+.contact-page .contact-button:hover {
+    background: #0369a1;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(2, 132, 199, 0.3);
+}
