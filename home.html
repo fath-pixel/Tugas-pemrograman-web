@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dokuumen</title>
+    <title>WEB PROFIL CAFE</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1> WELCOME TO CAFE <hr> </h1>
-    <h3> Selamat Datang Di Cafe Kami </h3>
-    <p> Cafe adalah tempat yang menyediakan berbagai macam menu makanan dan minuman yang dapat dinikmati oleh semua orang </p>
-    <p> Silahkan lihat menu yang tersedia di cafe kami <hr> </p>
-    <li> <a href="menu.html">Lihat Menu </a></li>
-    <p> Untuk informasi lebih lanjut silahkan hubungi kami di nomor kontak yang tersedia </p>
-    <li> <a href="kontak.html">Nomor kontak </a></li>
+
+    <!-- Navbar -->
+    <section class="header">
+        <nav>
+
+            <div class="logo">
+                CAFE KAMI
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </section>
+
+
+    <!-- Hero -->
+    <section class="home-hero">
+
+        <div class="home-hero-text">
+
+            <h1>WELCOME TO OUR CAFE</h1>
+
+            <p>
+                Enjoy your favorite coffee, ice cream, and cookies.
+            </p>
+
+            <a href="#preview-menu">VIEW MENU</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Preview Menu -->
+    <section class="home-preview" id="preview-menu">
+
+        <h1>Menu Cafe</h1>
+
+        <p>Pilihan Menu Cafe</p>
+
+        <div class="home-preview-container">
+
+            <!-- Coffee -->
+            <div class="home-preview-card">
+                <img src="coffee.jpg" alt="Coffee">
+                <h2>COFFEE</h2>
+            </div>
+
+
+            <!-- Ice Cream -->
+            <div class="home-preview-card">
+                <img src="ice-cream.jpg" alt="Ice Cream">
+                <h2>ICE CREAM</h2>
+            </div>
+
+
+            <!-- Cookies -->
+            <div class="home-preview-card">
+                <img src="cookies.jpg" alt="Cookies">
+                <h2>COOKIES</h2>
+            </div>
+
+        </div>
+
+    </section>
 
 </body>
+
 </html>
