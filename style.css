@@ -1,3 +1,89 @@
+/* home */
+.home-hero {
+    height: 550px;
+    background-image: url("cafe.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.home-hero-text {
+    color: white;
+}
+
+.home-hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.home-hero-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.home-hero-text a {
+    display: inline-block;
+    padding: 12px 25px;
+
+    background-color: #5c4033;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* ================= HOME PREVIEW MENU ================= */
+
+.home-preview {
+    text-align: center;
+    padding: 60px 70px;
+}
+
+.home-preview h1 {
+    font-size: 35px;
+    color: #4b3025;
+    margin-bottom: 10px;
+}
+
+.home-preview p {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.home-preview-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.home-preview-card {
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-preview-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.home-preview-card h2 {
+    margin-top: 15px;
+    color: #4b3025;
+}
+
+/* menu */
 * {
     margin: 0;
     padding: 0;
