@@ -4,24 +4,24 @@
     background-image: url("cafe.jpg");
     background-size: cover;
     background-position: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
 }
 
 .home-hero-text {
-    color: white;
+    color: #5c4033;
 }
 
 .home-hero-text h1 {
+    color: #5c4033;
     font-size: 50px;
     margin-bottom: 15px;
 }
 
 .home-hero-text p {
+    color: #5c4033;
     font-size: 20px;
     margin-bottom: 30px;
 }
@@ -29,16 +29,11 @@
 .home-hero-text a {
     display: inline-block;
     padding: 12px 25px;
-
     background-color: #5c4033;
     color: white;
-
     text-decoration: none;
     border-radius: 5px;
 }
-
-
-/* ================= HOME PREVIEW MENU ================= */
 
 .home-preview {
     text-align: center;
@@ -67,7 +62,6 @@
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -199,8 +193,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 20px;
-
-    background: #e0f2fe;
+    background: #f8f1e9;
     font-family: Arial, sans-serif;
 }
 
@@ -209,7 +202,6 @@ nav {
     padding: 35px;
     width: 100%;
     max-width: 350px;
-
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -223,19 +215,15 @@ nav {
 
 .contact-page .contact-icon {
     font-size: 35px;
-    color: #0284c7;
-
-    background: #e0f2fe;
+    color: #5c4033;
+    background: #d3ba85;
     width: 70px;
     height: 70px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
     margin: 0 auto 20px;
-
     transition: 0.3s ease;
 }
 
@@ -256,23 +244,20 @@ nav {
 }
 
 .contact-page h2 {
-    color: #0284c7;
+    color: #5c4033;
     font-size: 23px;
     margin: 20px 0;
 }
 
 .contact-page .contact-button {
     display: inline-block;
-    background: #0284c7;
+    background: #5c4033;
     color: white;
-
     padding: 12px 20px;
     border-radius: 10px;
-
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-
     transition: 0.3s ease;
 }
 
