@@ -285,3 +285,77 @@ nav {
     transform: translateY(-3px);
     box-shadow: 0 5px 12px rgba(2, 132, 199, 0.3);
 }
+
+.coffee-page {
+    background-color: #ddcfc9;
+    font-family: sans-serif;
+    padding: 20px;
+
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin-top: 40px;
+    display:flex;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d8a895;
+    padding: 9px 10px;
+    border-radius: 16px;
+    flex-direction: row;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    margin-bottom:15px;
+}
+.menu-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
+
+}
+.menu-info{
+    flex: 1;
+    margin-left: 15px;
+}
+.menu-info h3{
+    margin : 0;
+    font-size: 1rem;
+    color: #333;
+}
+.menu-info.harga {
+    margin: 4px 0, 0;
+    font-weight: bold;
+    color : #555;
+}
+quantity-control {
+  display: flex;
+  align-items: center;
+  background-color: #f3ece6;
+  border-radius: 20px;
+  padding: 4px 8px;
+  gap: 12px;
+}
+
+.btn-qty {
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4a2c20;
+  cursor: pointer;
+}
+
+.qty-number {
+  font-weight: bold;
+  font-size: 0.95rem
+}

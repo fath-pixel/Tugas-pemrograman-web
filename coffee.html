@@ -3,18 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>menu coffe</title>
 </head>
-<body>
-    <p> COFFEE </p>
-        <ul> 
-            <li> Espresso </li>
-            <li> Americano </li>
-            <li> Cappuccino </li>
-            <li> Latte </li>
-            <li> Matcha </li>
-            <li> Caramel Latte </li>
-            <li> Vanilla Latte </li>
-        </ul>
+<body> 
+     <!--navbar-->  
+    <section class="header">
+        <nav>
+            <div class="logo">
+                Menu Coffee
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+</body>
+<body class="coffee-page">
+
+    <div class="menu-list">
+        <!---item 1 -->
+    <div class="menu-item">
+        <img src="ekspresso.jpg" alt="Ekspresso" class="menu-img">
+    <div class="menu-info">
+        <h3> Coffe Espresso </h3>
+        <p class = "harga">50k </p>
+    </div>
+
+    <div class="quantity-control">
+        <button class="btn-qty">-</button>
+        <span class="qty-number">1</span>
+        <button class="btn-qty">+</button>
+        </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="menu-item">
+      <img src="Americano.png" alt="Coffee Americano" class="menu-img">
+    <div class="menu-info">
+        <h3>Coffee Americano</h3>
+        <p class="price">70k</p>
+      </div>
+    <div class="quantity-control">
+        <button class="btn-qty">-</button>
+        <span class="qty-number">1</span>
+        <button class="btn-qty">+</button>
+    </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="menu-item">
+      <img src="cappuccino.jpg" alt="Coffee Capucino" class="menu-img">
+    <div class="menu-info">
+        <h3>Coffee capucino</h3>
+        <p class="price">39k</p>
+      </div>
+    <div class="quantity-control">
+        <button class="btn-qty">-</button>
+        <span class="qty-number">1</span>
+        <button class="btn-qty">+</button>
+    </div>
+    </div>
+
+    <!-- Item 4-->
+    <div class="menu-item">
+      <img src="matcha.jpg" alt="Matcha" class="menu-img">
+    <div class="menu-info">
+        <h3> Matcha </h3>
+        <p class="price">90k</p>
+      </div>
+    <div class="quantity-control">
+        <button class="btn-qty">-</button>
+        <span class="qty-number">1</span>
+        <button class="btn-qty">+</button>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
